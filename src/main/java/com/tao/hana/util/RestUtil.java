@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 
+import com.alibaba.fastjson.JSON;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -74,9 +75,9 @@ public class RestUtil {
 
 	public ResponseEntity<String> restPost(String url, Object body,HttpHeaders httpHeaders) {
 
-		restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+		//restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
-
+		System.out.println(JSON.toJSONString(body));
 
 		HttpEntity<Object> entity = new HttpEntity<>(body, httpHeaders);
 		return invokeRestTemplete(url, HttpMethod.POST, entity);
