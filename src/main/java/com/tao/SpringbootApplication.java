@@ -1,5 +1,6 @@
 package com.tao;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
@@ -14,8 +15,8 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 //即可无数据库运行
 //@EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
-@EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
-
+@EnableAutoConfiguration()
+@MapperScan(value="com.tao.hana.mapper")
 public class SpringbootApplication {
 
 	// 启动的时候要注意，由于我们在controller中注入了RestTemplate，所以启动的时候需要实例化该类的一个实例

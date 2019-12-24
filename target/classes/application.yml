@@ -1,0 +1,23 @@
+# applicaiton
+server.port: 30010
+# Session timeout in seconds.
+
+server.servlet.context-path: /hana
+
+spring:  
+   datasource:
+      #username: OMLUSER1
+      #password: Welcome1!123 
+      #url: jdbc:oracle:thin:@gotigeradw_high?TNS_ADMIN=C:\\app\\wallet_GOTIGERADW
+      username: ${DB_USER}
+      password: ${DB_PASSWORD}
+      url: ${DB_URL}
+      #username: admin
+      #password: Welcome!123456
+      #url: jdbc:oracle:thin:@dongatp_tp?TNS_ADMIN=D:\\项目\\54 soap to nus\\Wallet_dongATP
+      #type: com.alibaba.druid.pool.DruidDataSource
+
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+#mybatis:
+#   config-location: classpath:mybatis/mybatis-config.xml
+#   mapper-locations: classpath:mybatis/mapper/*.xml

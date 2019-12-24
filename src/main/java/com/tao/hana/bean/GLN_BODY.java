@@ -106,11 +106,11 @@ public class GLN_BODY {
         return MERCHANT_ID;
     }
 
-    @JSONField(name="MERCHANT_ID")
+    @JSONField(name="TERMINAL_ID")
     public void setTERMINAL_ID(String TERMINAL_ID) {
         this.TERMINAL_ID = TERMINAL_ID;
     }
-    @JSONField(name="MERCHANT_ID")
+    @JSONField(name="TERMINAL_ID")
     public String getTERMINAL_ID() {
         return TERMINAL_ID;
     }
