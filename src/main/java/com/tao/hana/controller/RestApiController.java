@@ -7,6 +7,7 @@ import com.tao.hana.mapper.TransationsMapper;
 import com.tao.hana.util.GLN_Auth_Sample;
 import com.tao.hana.util.RestUtil;
 import com.tao.hana.util.UtilTime;
+import org.apache.log4j.Logger;
 import org.apache.tomcat.util.security.MD5Encoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -34,6 +35,9 @@ public class RestApiController {
     TransationsMapper transationsMapper;
     @Autowired
     MerchantsMapper merchantsMapper;
+
+    private static Logger log= Logger.getLogger("firstLogger");;
+
 
 
     @RequestMapping(value="/login",method=RequestMethod.POST)
@@ -95,8 +99,9 @@ public class RestApiController {
 
     @RequestMapping(value="/payment_approval",method=RequestMethod.POST)
     public ResponseEntity<String> paymentApproval(@RequestBody String json) {
+        log.debug("this is  parameter from  http request");
+        log.debug(json);
 
-        System.out.println(json);
 
         GLN_BODY glnBody=  JSON.parseObject(json,GLN_BODY.class);
         System.out.println(JSON.toJSONString(glnBody));
@@ -107,6 +112,11 @@ public class RestApiController {
         gln_header.setREQ_ORG_TX_DATE(UtilTime.getStringfomatDate("yyyymmdd"));
         gln_header.setREQ_ORG_TX_TIME(UtilTime.getStringfomatDate("hhmmss"));
 
+        log.debug("this is  gln_header");
+        log.debug(gln_header.getREQ_ORG_TX_NO());
+        log.debug(gln_header.getREQ_ORG_CODE());
+        log.debug(gln_header.getREQ_ORG_TX_DATE());
+        log.debug(gln_header.getREQ_ORG_TX_TIME());
 
 //        gln_header.setREQ_ORG_TX_NO("GSKOUP201912230009");
 //        gln_header.setREQ_ORG_CODE("GSKOUP");
