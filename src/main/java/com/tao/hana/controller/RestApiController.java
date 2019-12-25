@@ -107,9 +107,9 @@ public class RestApiController {
         System.out.println(JSON.toJSONString(glnBody));
         GLN_HEADER gln_header = new GLN_HEADER();
 
-        gln_header.setREQ_ORG_TX_NO(UtilTime.getStringfomatDate("yyyymmddhhmmss"));
+        gln_header.setREQ_ORG_TX_NO(UtilTime.getStringfomatDate("yyyyMMddhhmmss"));
         gln_header.setREQ_ORG_CODE("GSKOUP");
-        gln_header.setREQ_ORG_TX_DATE(UtilTime.getStringfomatDate("yyyymmdd"));
+        gln_header.setREQ_ORG_TX_DATE(UtilTime.getStringfomatDate("yyyyMMdd"));
         gln_header.setREQ_ORG_TX_TIME(UtilTime.getStringfomatDate("hhmmss"));
 
         log.debug("this is  gln_header");
