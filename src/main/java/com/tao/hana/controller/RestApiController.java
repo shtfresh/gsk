@@ -151,27 +151,29 @@ public class RestApiController {
 
 
         ResponseEntity<String> responseEntity = restUtil.restPost(url,jsonString,httpHeaders);
-        Object response = JSONObject.parse(responseEntity.getBody());
-        JSONObject  myJson = JSONObject.parseObject(responseEntity.getBody());
 
-        String  RES_MSG =  myJson.getJSONObject("GLN_BODY").getString("RES_MSG");
-        String GLN_TX_NUMBER = myJson.getJSONObject("GLN_HEADER").getString("GLN_TX_NO");
-        TransactionsBean transactionsBean = new TransactionsBean();
-        int status=0;
-        if(RES_MSG.equals("Okay")){
-            status=1;
-        }
-
-        transactionsBean.setAmount(glnBody.getREQ_AMOUNT());
-        transactionsBean.setCurrency(glnBody.getMERCHANT_NAT_CODE());
-        transactionsBean.setGlnTxNumber(GLN_TX_NUMBER);
-        transactionsBean.setLocalTxNumber("local_"+GLN_TX_NUMBER);
-        transactionsBean.setStatus(status);
-
-        transationsMapper.insertTransations(transactionsBean);
-
-        System.out.println(RES_MSG);
         return responseEntity;
+//        Object response = JSONObject.parse(responseEntity.getBody());
+//        JSONObject  myJson = JSONObject.parseObject(responseEntity.getBody());
+//
+//        String  RES_MSG =  myJson.getJSONObject("GLN_BODY").getString("RES_MSG");
+//        String GLN_TX_NUMBER = myJson.getJSONObject("GLN_HEADER").getString("GLN_TX_NO");
+//        TransactionsBean transactionsBean = new TransactionsBean();
+//        int status=0;
+//        if(RES_MSG.equals("Okay")){
+//            status=1;
+//        }
+//
+//        transactionsBean.setAmount(glnBody.getREQ_AMOUNT());
+//        transactionsBean.setCurrency(glnBody.getMERCHANT_NAT_CODE());
+//        transactionsBean.setGlnTxNumber(GLN_TX_NUMBER);
+//        transactionsBean.setLocalTxNumber("local_"+GLN_TX_NUMBER);
+//        transactionsBean.setStatus(status);
+//
+//        transationsMapper.insertTransations(transactionsBean);
+//
+//        System.out.println(RES_MSG);
+//        return responseEntity;
     }
 
 
