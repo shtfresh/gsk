@@ -11,6 +11,27 @@ public class MerchantBean {
 
     private String merchantPassWord;
 
+    private String merchantCategoryCode;
+    private String merchantLocation;
+
+
+
+
+    public String getMerchantCategoryCode() {
+        return merchantCategoryCode;
+    }
+
+    public void setMerchantCategoryCode(String merchantCategoryCode) {
+        this.merchantCategoryCode = merchantCategoryCode;
+    }
+
+    public String getMerchantLocation() {
+        return merchantLocation;
+    }
+
+    public void setMerchantLocation(String merchantLocation) {
+        this.merchantLocation = merchantLocation;
+    }
 
     public String getMerchantId() {
         return merchantId;

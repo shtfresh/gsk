@@ -1,0 +1,236 @@
+2019-12-25 10:52:10 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 10:52:10 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 10:52:10 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 10:52:10 [firstLogger]-[DEBUG] 20195225105210
+2019-12-25 10:52:10 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 10:52:10 [firstLogger]-[DEBUG] 20195225
+2019-12-25 10:52:11 [firstLogger]-[DEBUG] 105210
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] 20190625110602
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] 20190625
+2019-12-25 11:06:02 [firstLogger]-[DEBUG] 110602
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] 20190625110644
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] 20190625
+2019-12-25 11:06:44 [firstLogger]-[DEBUG] 110644
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] 20190825110834
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] 20190825
+2019-12-25 11:08:34 [firstLogger]-[DEBUG] 110834
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] 20191625111620
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] 20191625
+2019-12-25 11:16:20 [firstLogger]-[DEBUG] 111620
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] 20192825112850
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] 20192825
+2019-12-25 11:28:50 [firstLogger]-[DEBUG] 112850
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] 20194725114710
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] 20194725
+2019-12-25 11:47:10 [firstLogger]-[DEBUG] 114710
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] 20191225114916
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] 20191225
+2019-12-25 11:49:16 [firstLogger]-[DEBUG] 114916
+2019-12-25 17:22:49 [firstLogger]-[DEBUG] com.tao.hana.bean.MerchantBean@44ba2be0
+2019-12-25 17:24:55 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-25 17:24:55 [firstLogger]-[DEBUG] EDIYA_NAGOYA
+2019-12-25 17:30:10 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-25 17:30:10 [firstLogger]-[DEBUG] EDIYA_NAGOYA
+2019-12-25 17:30:15 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-25 17:34:58 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-25 17:34:58 [firstLogger]-[DEBUG] EDIYA_NAGOYA
+2019-12-25 17:35:03 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-25 17:35:03 [firstLogger]-[DEBUG] ---------------------------------0
+2019-12-25 17:36:10 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-25 17:36:10 [firstLogger]-[DEBUG] EDIYA_NAGOYA
+2019-12-25 17:36:15 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-25 17:36:15 [firstLogger]-[DEBUG] ---------------------------------0
+2019-12-25 17:39:06 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-25 17:39:06 [firstLogger]-[DEBUG] EDIYA_NAGOYA
+2019-12-25 17:39:11 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-25 17:39:23 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-25 17:39:23 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
+2019-12-25 17:39:24 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] 20191225055646
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] 20191225
+2019-12-25 17:56:46 [firstLogger]-[DEBUG] 055646
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] 20191225055752
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] 20191225
+2019-12-25 17:57:52 [firstLogger]-[DEBUG] 055752
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] 20191225055810
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] 20191225
+2019-12-25 17:58:10 [firstLogger]-[DEBUG] 055810
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] 20191225060430
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] GSKOUP
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] 20191225
+2019-12-25 18:04:30 [firstLogger]-[DEBUG] 060430

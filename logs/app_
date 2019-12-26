@@ -1,5 +1,5 @@
-2019-12-25 10:52:10 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 10:52:10 [firstLogger]-[DEBUG] {
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -11,13 +11,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 10:52:10 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 10:52:10 [firstLogger]-[DEBUG] 20195225105210
-2019-12-25 10:52:10 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 10:52:10 [firstLogger]-[DEBUG] 20195225
-2019-12-25 10:52:11 [firstLogger]-[DEBUG] 105210
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] {
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] 20191226103706
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] 20191226
+2019-12-26 10:37:06 [firstLogger]-[DEBUG] 103706
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -29,13 +29,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] 20190625110602
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] 20190625
-2019-12-25 11:06:02 [firstLogger]-[DEBUG] 110602
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] {
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] 20191226104220
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] 20191226
+2019-12-26 10:42:20 [firstLogger]-[DEBUG] 104220
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -47,13 +47,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] 20190625110644
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] 20190625
-2019-12-25 11:06:44 [firstLogger]-[DEBUG] 110644
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] {
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] 20191226104615
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] 20191226
+2019-12-26 10:46:15 [firstLogger]-[DEBUG] 104615
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -65,13 +65,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] 20190825110834
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] 20190825
-2019-12-25 11:08:34 [firstLogger]-[DEBUG] 110834
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] {
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] 20191226104710
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] 20191226
+2019-12-26 10:47:10 [firstLogger]-[DEBUG] 104710
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -83,13 +83,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] 20191625111620
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] 20191625
-2019-12-25 11:16:20 [firstLogger]-[DEBUG] 111620
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] {
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] 20191226105824
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] 20191226
+2019-12-26 10:58:24 [firstLogger]-[DEBUG] 105824
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -101,13 +101,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] 20192825112850
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] 20192825
-2019-12-25 11:28:50 [firstLogger]-[DEBUG] 112850
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] {
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] 20191226110055
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] 20191226
+2019-12-26 11:00:55 [firstLogger]-[DEBUG] 110055
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -119,13 +119,13 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] 20194725114710
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] 20194725
-2019-12-25 11:47:10 [firstLogger]-[DEBUG] 114710
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] this is  parameter from  http request
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] {
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] 20191226110933
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] 20191226
+2019-12-26 11:09:33 [firstLogger]-[DEBUG] 110933
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] {
         "PAY_CODE": "30095065512006",
         "REQ_CUR_CODE": "GND",
         "REQ_AMOUNT": "00000001200000000000",
@@ -137,8 +137,29 @@
         "TERMINAL_ID": "T001",
         "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
     }
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] this is  gln_header
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] 20191225114916
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] GSKOUP
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] 20191225
-2019-12-25 11:49:16 [firstLogger]-[DEBUG] 114916
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] 20191226110950
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] 20191226
+2019-12-26 11:09:50 [firstLogger]-[DEBUG] 110950
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] 20191226111100
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] 20191226
+2019-12-26 11:11:00 [firstLogger]-[DEBUG] 111100
+2019-12-26 11:15:17 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 11:15:17 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
+2019-12-26 11:15:21 [firstLogger]-[DEBUG] ---------------------------------

@@ -40,11 +40,12 @@ public class RestApiController {
 
 
 
-    @RequestMapping(value="/login",method=RequestMethod.POST)
-    public String login(@RequestBody MerchantBean merchantBean) throws NoSuchAlgorithmException {
+    @RequestMapping(value="/merchant/login",method=RequestMethod.POST)
+    public JSONObject login(@RequestBody MerchantBean merchantBean) throws NoSuchAlgorithmException {
         String message="success";
         String password = merchantBean.getMerchantPassWord();
-
+        log.debug("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
+log.debug(merchantBean.getMerchantId());
         //java自带工具包MessageDigest
         MessageDigest md = MessageDigest.getInstance("MD5");
         String endcodePassWord = MD5Encoder.encode(md.digest(password.getBytes()));
@@ -53,26 +54,34 @@ public class RestApiController {
         merchantBean.setMerchantPassWord(endcodePassWord);
 
 
-
-
-
-
-
+        MerchantBean merchantBeanFromDB=null;
+        JSONObject jsonObject=new JSONObject();
         try{
            List<MerchantBean> listMerchantBean = merchantsMapper.login(merchantBean);
+            log.debug("---------------------------------");
+
            if(listMerchantBean == null || listMerchantBean.size()<=0){
                message="false";
+           }else{
+                merchantBeanFromDB= listMerchantBean.get(0);
+                jsonObject = JSONObject.parseObject(JSON.toJSONString(merchantBeanFromDB));
            }
         }catch(Exception e){
             message=e.getMessage();
+            System.out.println("++++++++"+message);
         }
-        return message;
+        //JSONObject.parseObject(JSON.toJSONString(glnBody));
+        if(message.equals("false")){
+            jsonObject.put("message",message);
+        }
+
+        return jsonObject;
     }
 
 
-    @RequestMapping(value="/registMerchant",method=RequestMethod.POST)
-    public String insertMerchant(@RequestBody MerchantBean merchantBean) throws NoSuchAlgorithmException {
-        String message="success";
+    @RequestMapping(value="/merchant/register",method=RequestMethod.POST)
+    public JSONObject  insertMerchant(@RequestBody MerchantBean merchantBean) throws NoSuchAlgorithmException {
+        String message="false";
         String password = merchantBean.getMerchantPassWord();
 
         //java自带工具包MessageDigest
@@ -83,22 +92,29 @@ public class RestApiController {
         merchantBean.setMerchantPassWord(endcodePassWord);
 
 
-        String uuid = UUID.randomUUID().toString().replaceAll("-","");
-        merchantBean.setMerchantId(uuid);
+//        String uuid = UUID.randomUUID().toString().replaceAll("-","");
+//        merchantBean.setMerchantId(uuid);
 
 
-        System.out.println(merchantBean.getMerchantName());
+
 
         try{
-            merchantsMapper.insertMerchant(merchantBean);
+            if(merchantsMapper.checkMerchant(merchantBean.getMerchantId()).size()<=0){
+                merchantsMapper.insertMerchant(merchantBean);
+                message="success";
+            }else{
+                message="merchant id already exists";
+            }
         }catch(Exception e){
             message=e.getMessage();
         }
-    return message;
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("message",message);
+        return jsonObject;
     }
 
-    @RequestMapping(value="/payment_approval",method=RequestMethod.POST)
-    public String paymentApproval(@RequestBody String json) {
+    @RequestMapping(value="/payment/approval",method=RequestMethod.POST)
+    public JSONObject paymentApproval(@RequestBody String json) {
         log.debug("this is  parameter from  http request");
         log.debug(json);
 
@@ -169,11 +185,52 @@ public class RestApiController {
         transactionsBean.setGlnTxNumber(GLN_TX_NUMBER);
         transactionsBean.setLocalTxNumber("local_"+GLN_TX_NUMBER);
         transactionsBean.setStatus(status);
+        transactionsBean.setMerchantId(glnBody.getMERCHANT_ID());
+
+        ResponseJsonbody responseJsonbody=  JSON.parseObject(myJson.getJSONObject("GLN_BODY").toJSONString(),ResponseJsonbody.class);
+
+        transactionsBean.setResMsg(responseJsonbody.getRES_MSG()==null ? "":responseJsonbody.getRES_MSG());
+        transactionsBean.setAdditiveMsg(responseJsonbody.getADDITIVE_MSG()==null ? "":responseJsonbody.getADDITIVE_MSG());
+        transactionsBean.setRcvrTxDatetime(responseJsonbody.getRCVR_TX_DATETIME()==null ? "":responseJsonbody.getRCVR_TX_DATETIME());
+        transactionsBean.setSettlementDate(responseJsonbody.getSETTLEMENT_DATE()==null ? "":responseJsonbody.getSETTLEMENT_DATE());
+        transactionsBean.setTxAmount(responseJsonbody.getTX_AMOUNT()==null ? "":responseJsonbody.getTX_AMOUNT());
+
+        transactionsBean.setRcvrSettlementAmount(responseJsonbody.getRCVR_SETTLEMENT_AMOUNT()==null ? "":responseJsonbody.getRCVR_SETTLEMENT_AMOUNT());
+        transactionsBean.setTxLocalAmount(responseJsonbody.getTX_LOCAL_AMOUNT()==null ? "":responseJsonbody.getTX_LOCAL_AMOUNT());
+        transactionsBean.setRcvrSettlementLocalAmount(responseJsonbody.getRCVR_SETTLEMENT_LOCAL_AMOUNT()==null ? "":responseJsonbody.getRCVR_SETTLEMENT_LOCAL_AMOUNT());
+        transactionsBean.setRcvrCurCode(responseJsonbody.getRCVR_CUR_CODE()==null ? "":responseJsonbody.getRCVR_CUR_CODE());
+
+        transactionsBean.setFxTickerNo(responseJsonbody.getFX_TICKER_NO()==null ? "":responseJsonbody.getFX_TICKER_NO());
+        transactionsBean.setUsdBasicRate(responseJsonbody.getUSD_BASIC_RATE()==null ? "":responseJsonbody.getUSD_BASIC_RATE());
+        transactionsBean.setUsdBuyRate(responseJsonbody.getUSD_BUY_RATE()==null ? "":responseJsonbody.getUSD_BUY_RATE());
+        transactionsBean.setUserName(responseJsonbody.getUSER_NAME()==null ? "":responseJsonbody.getUSER_NAME());
+        transactionsBean.setUserNatCode(responseJsonbody.getUSER_NAT_CODE()==null ? "":responseJsonbody.getUSER_NAT_CODE());
+        transactionsBean.setUserNatCode(responseJsonbody.getUSER_NAT_CODE()==null ? "":responseJsonbody.getUSER_NAT_CODE());
+        transactionsBean.setSndrLocalglnCode(responseJsonbody.getSNDR_LOCALGLN_CODE()==null ? "":responseJsonbody.getSNDR_LOCALGLN_CODE());
+        transactionsBean.setLocalglnUuid(responseJsonbody.getLOCALGLN_UUID()==null ? "":responseJsonbody.getLOCALGLN_UUID());
+
+
+
+        System.out.println("--------------------------------");
+        System.out.println(transactionsBean.getResMsg());
+
+        System.out.println(transactionsBean.getRcvrSettlementAmount());
+
 
         transationsMapper.insertTransations(transactionsBean);
 
         System.out.println(RES_MSG);
-        return RES_MSG;
+        JSONObject jsonObject;
+        if(RES_MSG.equals("Okay")){
+
+             jsonObject = myJson.getJSONObject("GLN_BODY");
+        }else{
+             jsonObject = new JSONObject();
+            jsonObject.put("message",RES_MSG);
+        }
+
+
+        return jsonObject;
     }
 
 
