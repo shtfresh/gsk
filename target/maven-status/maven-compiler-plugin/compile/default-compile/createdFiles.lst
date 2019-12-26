@@ -1,5 +1,6 @@
 com\tao\hana\bean\JsonRootBean.class
 com\tao\hana\util\GLN_Auth_Sample$HexaString.class
+com\tao\hana\bean\ResponseJsonbody.class
 com\tao\hana\bean\GLN_BODY.class
 com\tao\hana\bean\MerchantBean.class
 com\tao\hana\controller\RestApiController.class
