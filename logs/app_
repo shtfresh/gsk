@@ -163,3 +163,68 @@
 2019-12-26 11:15:17 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 2019-12-26 11:15:17 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
 2019-12-26 11:15:21 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-26 14:00:56 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:00:56 [firstLogger]-[DEBUG] 
+2019-12-26 14:06:20 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:06:20 [firstLogger]-[DEBUG] 
+2019-12-26 14:07:22 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:07:22 [firstLogger]-[DEBUG] 
+2019-12-26 14:09:27 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:09:27 [firstLogger]-[DEBUG] 
+2019-12-26 14:09:37 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:09:37 [firstLogger]-[DEBUG] 
+2019-12-26 14:11:06 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:11:06 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
+2019-12-26 14:11:35 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:11:35 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
+2019-12-26 14:12:15 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:12:15 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
+2019-12-26 14:12:27 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-26 14:12:27 [firstLogger]-[DEBUG] hhhhh:{"merchantLocation":"JP","merchantId":"EDIYA_NAGOYA_ID","merchantPassWord":"e10adc3949ba59abbe56e057f20f883e","merchantCategoryCode":"ABC","merchantName":"EDIYA_NAGOYA"}
+2019-12-26 14:12:27 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-26 14:12:27 [firstLogger]-[DEBUG] hhhhh:{"merchantLocation":"JP","merchantId":"EDIYA_NAGOYA_ID","merchantPassWord":"e10adc3949ba59abbe56e057f20f883e","merchantCategoryCode":"ABC","merchantName":"EDIYA_NAGOYA"}
+2019-12-26 14:12:28 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-26 14:12:28 [firstLogger]-[DEBUG] hhhhh:{"merchantLocation":"JP","merchantId":"EDIYA_NAGOYA_ID","merchantPassWord":"e10adc3949ba59abbe56e057f20f883e","merchantCategoryCode":"ABC","merchantName":"EDIYA_NAGOYA"}
+2019-12-26 14:12:41 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:12:41 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID11
+2019-12-26 14:12:41 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-26 14:12:59 [firstLogger]-[DEBUG] xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2019-12-26 14:12:59 [firstLogger]-[DEBUG] EDIYA_NAGOYA_ID
+2019-12-26 14:12:59 [firstLogger]-[DEBUG] ---------------------------------
+2019-12-26 14:12:59 [firstLogger]-[DEBUG] hhhhh:{"merchantLocation":"JP","merchantId":"EDIYA_NAGOYA_ID","merchantPassWord":"e10adc3949ba59abbe56e057f20f883e","merchantCategoryCode":"ABC","merchantName":"EDIYA_NAGOYA"}
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] 20191226021420
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] 20191226
+2019-12-26 14:14:20 [firstLogger]-[DEBUG] 021420
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] this is  parameter from  http request
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] this is  gln_header
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] 20191226021629
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] GSKOUP
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] 20191226
+2019-12-26 14:16:29 [firstLogger]-[DEBUG] 021629

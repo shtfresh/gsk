@@ -8,6 +8,7 @@ import com.tao.hana.util.GLN_Auth_Sample;
 import com.tao.hana.util.RestUtil;
 import com.tao.hana.util.UtilTime;
 import org.apache.log4j.Logger;
+import org.apache.tomcat.jni.Mmap;
 import org.apache.tomcat.util.security.MD5Encoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -19,7 +20,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 @RestController
@@ -65,6 +68,14 @@ log.debug(merchantBean.getMerchantId());
            }else{
                 merchantBeanFromDB= listMerchantBean.get(0);
                 jsonObject = JSONObject.parseObject(JSON.toJSONString(merchantBeanFromDB));
+
+                log.debug("hhhhh:"+jsonObject);
+
+               jsonObject.put("code","N0000000");
+               jsonObject.put("message","Okay");
+
+
+
            }
         }catch(Exception e){
             message=e.getMessage();
@@ -73,6 +84,7 @@ log.debug(merchantBean.getMerchantId());
         //JSONObject.parseObject(JSON.toJSONString(glnBody));
         if(message.equals("false")){
             jsonObject.put("message",message);
+            jsonObject.put("code","RSP00002");
         }
 
         return jsonObject;
@@ -82,6 +94,7 @@ log.debug(merchantBean.getMerchantId());
     @RequestMapping(value="/merchant/register",method=RequestMethod.POST)
     public JSONObject  insertMerchant(@RequestBody MerchantBean merchantBean) throws NoSuchAlgorithmException {
         String message="false";
+        String code ="N0000000";
         String password = merchantBean.getMerchantPassWord();
 
         //java自带工具包MessageDigest
@@ -104,12 +117,14 @@ log.debug(merchantBean.getMerchantId());
                 message="success";
             }else{
                 message="merchant id already exists";
+                code="RSP00001";
             }
         }catch(Exception e){
             message=e.getMessage();
         }
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("message",message);
+        jsonObject.put("code",code);
         return jsonObject;
     }
 
@@ -117,7 +132,7 @@ log.debug(merchantBean.getMerchantId());
     public JSONObject paymentApproval(@RequestBody String json) {
         log.debug("this is  parameter from  http request");
         log.debug(json);
-
+        String code ="N0000000";
 
         GLN_BODY glnBody=  JSON.parseObject(json,GLN_BODY.class);
         System.out.println(JSON.toJSONString(glnBody));
@@ -224,9 +239,13 @@ log.debug(merchantBean.getMerchantId());
         if(RES_MSG.equals("Okay")){
 
              jsonObject = myJson.getJSONObject("GLN_BODY");
+            jsonObject.put("code",code);
         }else{
              jsonObject = new JSONObject();
             jsonObject.put("message",RES_MSG);
+            code ="BOFP0001";
+
+            jsonObject.putIfAbsent("code",code);
         }
 
 
