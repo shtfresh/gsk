@@ -166,7 +166,7 @@ log.debug(merchantBean.getMerchantId());
         jsonRootBean.setGLN_HEADER(gln_header);
         jsonRootBean.setGLN_BODY(glnBody);
 
-        String url="https://test-api.glnpay.com:9000/api/v2/payments/cpm/approval";
+        String url="https://test-api.glnpay.com:9000/api/v2/payments-toss/cpm/approval";
 
 
 
