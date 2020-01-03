@@ -16,3 +16,21 @@
 2020-01-03 10:07:12 [firstLogger]-[DEBUG] GSKOUP
 2020-01-03 10:07:12 [firstLogger]-[DEBUG] 20200103
 2020-01-03 10:07:12 [firstLogger]-[DEBUG] 100712
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] this is  parameter from  http request
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] {
+        "PAY_CODE": "30095065512006",
+        "REQ_CUR_CODE": "GND",
+        "REQ_AMOUNT": "00000001200000000000",
+        "MERCHANT_NAME": "EDIYA_NAGOYA",
+        "MERCHANT_CATEGORY_CODE": "XXY",
+        "MERCHANT_NAT_CODE": "JP",
+        "MERCHANT_ID": "MC005",
+        "MERCHANT_LOCATION": "NAGOYA",
+        "TERMINAL_ID": "T001",
+        "PAYMENT_NO": "GSKOUP-201912230000000008-Test00"
+    }
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] this is  gln_header
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] 20200103102656
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] GSKOUP
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] 20200103
+2020-01-03 10:26:56 [firstLogger]-[DEBUG] 102656
